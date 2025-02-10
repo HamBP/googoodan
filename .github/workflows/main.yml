@@ -18,5 +18,5 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_API_MODEL: "gpt-4" # 선택 사항: 기본값 "gpt-4"
+          OPENAI_API_MODEL: "gpt-4o" # 선택 사항: 기본값 "gpt-4"
           exclude: "**/*.json, **/*.md" # 선택 사항: 특정 파일 패턴 제외
